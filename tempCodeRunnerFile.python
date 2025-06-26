@@ -1,0 +1,12 @@
+import torch
+import torch_directml
+
+device = torch_directml.device()
+
+# Tạo tensor và đẩy lên GPU DirectML
+x = torch.tensor([1.0, 2.0, 3.0], device=device)
+print("Tensor trên GPU:", x)
+
+# Thực hiện phép tính trên GPU
+y = x * 2
+print("Kết quả nhân 2 trên GPU:", y)
