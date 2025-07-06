@@ -43,9 +43,11 @@ Nhấn "chọn ảnh" để tải lên hình ảnh trái cây cần nhận diệ
 Nhập câu hỏi vào ô "Nhập câu hỏi:" (ví dụ: "đây là quả gì").
 
 Nhấn "nhận diện" và kết quả sẽ hiển thị ở phần "Result:".
-![image](https://github.com/user-attachments/assets/e9c22f91-aa80-4898-a470-1ea1398322bb)
-![image](https://github.com/user-attachments/assets/cfa93d37-94b2-4d71-8c90-2b0c69fdc537)
-![image](https://github.com/user-attachments/assets/fbb960b7-89e2-48ac-b3f0-767ad6b33c32)
+
+
+| Giao diện huấn luyện                                                                           | Giao diện kiểm thử (Táo)                                                                  | Giao diện kiểm thử (Chuối)                                                                 |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![Data Input](https://github.com/user-attachments/assets/e9c22f91-aa80-4898-a470-1ea1398322bb) | ![Apple](https://github.com/user-attachments/assets/cfa93d37-94b2-4d71-8c90-2b0c69fdc537) | ![Banana](https://github.com/user-attachments/assets/fbb960b7-89e2-48ac-b3f0-767ad6b33c32) |
 
 
 
