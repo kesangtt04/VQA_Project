@@ -21,41 +21,6 @@ Combination & Prediction: Các đặc trưng từ ảnh và câu hỏi được 
 
 Nguồn: Bộ dữ liệu Fruits-360.
 
-Tiền xử lý:
-
-Lọc và chọn lọc các loại trái cây tiêu biểu.
-
-Giảm số lượng ảnh ngẫu nhiên xuống 100 ảnh mỗi lớp để cân bằng và giảm thời gian huấn luyện.
-
-Thay đổi kích thước ảnh xuống 64x64 pixels.
-
-Tạo các mẫu câu hỏi đơn giản (ví dụ: "đây là quả gì") và câu trả lời tương ứng từ nhãn ảnh (ví dụ: "quả táo").
-
-Dữ liệu huấn luyện được lưu trữ dưới dạng JSON.
-
-📈 Kết quả huấn luyện
-Mô hình được huấn luyện với 
-
-Adam optimizer và sparse_categorical_crossentropy loss, theo dõi accuracy.
-
-
-Accuracy: Độ chính xác trên cả tập huấn luyện và tập kiểm định đều đạt mức rất cao (gần 1.0) sau một vài epochs.
-
-
-Loss: Train Loss giảm nhanh chóng. Tuy nhiên, 
-
-Validation Loss cho thấy dấu hiệu tăng trở lại sau một số epochs nhất định, cho thấy mô hình đang bị overfitting trên dữ liệu huấn luyện.
-
-
-💡 Hướng phát triển trong tương lai
-Để cải thiện khả năng tổng quát hóa của mô hình và khắc phục overfitting, các hướng phát triển tiềm năng bao gồm:
-
-Áp dụng thêm các kỹ thuật Regularization (ví dụ: Dropout).
-
-Tăng cường dữ liệu (Data Augmentation) để mở rộng bộ dữ liệu huấn luyện.
-
-Khám phá các kiến trúc VQA tiên tiến hơn hoặc cơ chế Attention để kết hợp đặc trưng hiệu quả hơn.
-
 💻 Cách sử dụng
 Nhập dữ liệu huấn luyện (Data Input):
 
@@ -78,3 +43,9 @@ Nhấn "chọn ảnh" để tải lên hình ảnh trái cây cần nhận diệ
 Nhập câu hỏi vào ô "Nhập câu hỏi:" (ví dụ: "đây là quả gì").
 
 Nhấn "nhận diện" và kết quả sẽ hiển thị ở phần "Result:".
+![image](https://github.com/user-attachments/assets/e9c22f91-aa80-4898-a470-1ea1398322bb)
+![image](https://github.com/user-attachments/assets/cfa93d37-94b2-4d71-8c90-2b0c69fdc537)
+![image](https://github.com/user-attachments/assets/fbb960b7-89e2-48ac-b3f0-767ad6b33c32)
+
+
+
